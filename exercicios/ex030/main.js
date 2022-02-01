@@ -88,8 +88,8 @@ function criaData(data){
 
     return (
         `${nomeDia}, ${data.getDate()} de ${nomeMes}` +
-        ` de ${data.getFullYear()}` +
-        ` ${zeroAEquerda(data.getHours())} :${zeroAEquerda(data.getMinutes())}`
+        ` de ${data.getFullYear()},` +
+        ` ${zeroAEquerda(data.getHours())}:${zeroAEquerda(data.getMinutes())}`
     );
 }
 
